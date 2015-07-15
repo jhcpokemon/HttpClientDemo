@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         public void run() {
             try {
                 /**
-                 * In Genymotion,use 10.0.0.3.2 to access 127.0.0.1
+                 * In Genymotion,use 10.0.3.2 to access 127.0.0.1
                  */
                 URL url = new URL("http://10.0.3.2/test.txt");
                 InputStream in = url.openStream();
