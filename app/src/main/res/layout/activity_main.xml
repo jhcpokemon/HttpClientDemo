@@ -11,12 +11,31 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view"
+        android:text="visit"
+        style="?android:attr/buttonBarButtonStyle" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view"
+        android:layout_toEndOf="@id/button1"
+        android:layout_alignBaseline="@id/button1"
+        android:text="get"
+        style="?android:attr/buttonBarButtonStyle" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view"
+        android:layout_toEndOf="@id/button2"
+        android:layout_alignBaseline="@id/button1"
         android:text="post"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_centerHorizontal="true"/>
+        style="?android:attr/buttonBarButtonStyle" />
 
 </RelativeLayout>
